@@ -1,1 +1,42 @@
+/* Minimal stylesheet to make layout visible */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 1.5rem;
+	line-height: 1.5;
+	color: #222;
+}
+
+h1 {
+	color: #2a5885;
+}
+
+a {
+	color: #0066cc;
+}
+
+form {
+	margin-top: 1rem;
+	padding: 0.5rem 0;
+}
+
+label {
+	font-weight: 600;
+}
+
+input[type="text"] {
+	padding: 0.25rem;
+}
+
+button {
+	padding: 0.4rem 0.6rem;
+	background: #2a5885;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #244a6d;
+}
 
